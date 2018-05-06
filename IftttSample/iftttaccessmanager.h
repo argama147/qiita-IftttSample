@@ -20,6 +20,7 @@ protected:
     virtual QString value2() = 0;
     virtual QString value3() = 0;
     virtual QString webhooksKey() = 0;
+    virtual QString eventName() = 0;
 private:
     QNetworkAccessManager *m_networkManager;
     QNetworkReply *m_networkReply;

@@ -12,7 +12,8 @@ IftttAccessManager::IftttAccessManager(QObject *parent) : QObject(parent)
 
 void IftttAccessManager::requestPost()
 {
-    QUrl url("https://maker.ifttt.com/trigger/hello/with/key/" + webhooksKey());
+    QUrl url("https://maker.ifttt.com/trigger/" + eventName()
+             + "/with/key/" + webhooksKey());
     QUrlQuery postData;
     QString value1Str = value1();
     if (!value1Str.isEmpty()) {

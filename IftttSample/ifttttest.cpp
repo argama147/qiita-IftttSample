@@ -24,3 +24,9 @@ QString IftttTest::webhooksKey()
 {
     return "Your Key";
 }
+
+
+QString IftttTest::eventName()
+{
+    return "hello";
+}

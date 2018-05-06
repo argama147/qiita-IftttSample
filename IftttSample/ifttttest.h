@@ -13,6 +13,7 @@ protected:
     QString value2() override;
     QString value3() override;
     QString webhooksKey() override;
+    QString eventName() override;
 };
 
 #endif // IFTTTTEST_H
