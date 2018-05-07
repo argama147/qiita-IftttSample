@@ -43,3 +43,18 @@ void IftttAccessManager::requestPost()
     });
 }
 
+QString IftttAccessManager::value1()
+{
+    return "";
+}
+
+QString IftttAccessManager::value2()
+{
+    return "";
+}
+
+QString IftttAccessManager::value3()
+{
+    return "";
+}
+

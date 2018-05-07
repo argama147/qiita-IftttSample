@@ -16,9 +16,9 @@ public:
 signals:
     void postFinished(const QString &result);
 protected:
-    virtual QString value1() = 0;
-    virtual QString value2() = 0;
-    virtual QString value3() = 0;
+    virtual QString value1();
+    virtual QString value2();
+    virtual QString value3();
     virtual QString webhooksKey() = 0;
     virtual QString eventName() = 0;
 private:
